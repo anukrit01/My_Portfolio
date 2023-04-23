@@ -10,6 +10,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
+import { ResponsiveDirective } from './directives/responsive.directive';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { WorkExperienceComponent } from './work-experience/work-experience.compo
     SkillsComponent,
     ProjectsComponent,
     ContactsComponent,
-    WorkExperienceComponent
+    WorkExperienceComponent,
+    ResponsiveDirective
   ],
   imports: [
     BrowserModule,
