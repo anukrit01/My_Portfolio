@@ -5,6 +5,17 @@
     --gray-light: #BDBDBD;
     --dark-gray: #263238;
     --black: #212121;
+    --matt-black: #1C1C1C;
+    --orange:#FF5733;
+    --light-orange:#ff8a5f;
+    --biege:#fff3bf;
+    --yellow:#FFC300;
+    --khaki:#916600;
+    --off-white:#FFFFFF;
+    --lavender:#c0c0c0;
+    --bg-200:#2b2b2b;
+    --bg-300:#434343;
+      
 }
 
 
@@ -21,14 +32,15 @@ body {
 .container {
     margin: 0 auto;
     max-width: 1500px;
-    outline: 0px solid white;
+    outline: 0px solid #ff8a5f;
 }
 
 h1 {
     padding: 1rem 0;
     text-align: center;
     letter-spacing: 1px;
-    color: var(--green);
-    outline: 1px solid white;
+    color: var(--orange);
+    outline: 1px solid #ff8a5f;
+    border-radius: 2rem;
     font-family: 'Roboto Condensed', sans-serif;
 }

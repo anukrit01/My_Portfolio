@@ -11,7 +11,8 @@
 
 table {
     font-size: 1.3rem;
-    outline: 1px solid white;
+    outline: 1px solid #ff8a5f;
+    border-radius: 10px;
 }
 
 table tr {
@@ -23,7 +24,7 @@ table tr td {
 }
 
 table tr td:nth-child(even) {
-    color: var(--green);
+    color: var(--orange);
 }
 
 section p {
