@@ -9,7 +9,7 @@ import { Experience } from '../models/models';
 export class WorkExperienceComponent implements OnInit {
   expList: Experience[] = [
     {
-      role: 'Full Stack Developer',
+      role: 'Digital Specialist Engineer',
       company: 'Infosys',
       duration: 'Sep 2021 - Working Currently',
       desc: [

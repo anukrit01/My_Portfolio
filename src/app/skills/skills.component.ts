@@ -10,13 +10,13 @@ export class SkillsComponent implements OnInit {
   skillList: Skill[] = [
     {
       name: 'Angular.js',
-      level: 'Intermediate',
-      rating: 70
+      level: 'Expert',
+      rating: 80
     },
     {
       name: 'Node.js',
-      level: 'Intermediate',
-      rating: 70
+      level: 'Proficient',
+      rating: 90
     },
     {
       name: 'HTML, CSS',
@@ -25,13 +25,13 @@ export class SkillsComponent implements OnInit {
     },
     {
       name: 'TypeScript',
-      level: 'Intermediate',
-      rating: 75
+      level: 'Expert',
+      rating: 80
     },
     {
       name: 'JavaScript',
-      level: 'Intermediate',
-      rating: 65
+      level: 'Expert',
+      rating: 80
     },
     {
       name: 'C++',
@@ -39,9 +39,14 @@ export class SkillsComponent implements OnInit {
       rating: 85
     },
     {
-      name: 'Python',
-      level: 'Intermediate',
-      rating: 65
+      name: 'MySQL',
+      level: 'Expert',
+      rating: 80
+    },
+    {
+      name: 'AWS Services',
+      level: 'Expert',
+      rating: 80
     },
   ];
 
