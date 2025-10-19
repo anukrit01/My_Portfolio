@@ -31,6 +31,11 @@
         height: 30px;
         font-size: 1.2rem;
     }
+
+    .social-media a {
+        color: inherit;
+        text-align: none;
+    }
 }
 
 /* For PC View */
@@ -57,5 +62,10 @@
 
     .social-media li:hover {
         background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    .social-media a {
+        color: inherit;
+        text-align: none;
     }
 }
